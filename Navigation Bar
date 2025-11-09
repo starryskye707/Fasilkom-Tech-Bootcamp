@@ -1,3 +1,15 @@
+//HTML
+ <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+
+//CSS
 /* Navigation Bar */
         nav {
             background: #991b1b;
