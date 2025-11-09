@@ -3,65 +3,108 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Personal Website</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Avril Lavindi Cahayani - Personal Website</title>
+     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero/Profile Section -->
+    <section id="home" class="hero">
+        <img src="test.jpg" alt="Avril Lavindi Cahayani" height="450" width="450">
+        <h1>Avril Lavindi Cahayani</h1>
+        <p class="tagline">A passionate computer science student blending creativity with technology to build innovative solutions.</p>
+    </section>
+
+    <!-- Main Container -->
     <div class="container">
-        <header>
-            <h1>Welcome to My Page</h1>
-            <p class="subtitle">Computer Science Student & Drawing Enthusiast</p>
-        </header>
-
-        <div class="section">
+        <!-- About Section -->
+        <section id="about">
             <h2>About Me</h2>
-             <img src="test.jpg" alt="This is a picture of Avril" height="200">
             <div class="about-content">
-                <div class="info-card">
-                    <h3>🎓 Education</h3>
-                    <p>My name is Avril and i am currently 18 years old.</p>
-                    <p>I'm currently a freshman pursuing Computer Science at <strong>UPN "Veteran" Jawa Timur</strong>.</p>
-                </div>
+                <p>
+                    Hello! I'm Avril Lavindi Cahayani, a freshman Computer Science student at UPN Veteran Jawa Timur. My journey into the world of technology began with a curiosity about how things work behind the scenes, and now I'm diving deep into programming, algorithms, and software development. As someone who values both logic and creativity, I find computer science to be the perfect field where I can merge analytical thinking with innovative problem-solving. Beyond academics, I'm constantly exploring new technologies and working on projects that challenge me to grow. I believe that learning is a lifelong journey, and I'm excited about every step of this adventure in the tech world.
+                </p>
                 
-                <div class="info-card">
-                    <h3>💭 My Journey</h3>
-                    <p>As a first-year student, I'm exploring the fundamentals of computer science while balancing drawing and reading novels as my hobbies.</p>
+                <div class="hobbies-list">
+                    <h3>My Hobbies</h3>
+                    <ul>
+                        <li><strong>Drawing:</strong> Expressing creativity through visual art and sketches</li>
+                        <li><strong>Reading Novels:</strong> Immersing myself in classical literature and timeless stories</li>
+                        <li><strong>Playing Sudoku:</strong> Sharpening my logical thinking and problem-solving skills</li>
+                    </ul>
                 </div>
             </div>
+        </section>
 
-            <div class="quote">
-                “There is only one way to get rid of anxiety. Finding one’s own safety mechanism, someone you can let in. Someone you can go to for help. One that will offer you company when you need it.” - Daily Dose of Sunshine
-            </div>
-        </div>
-
-        <div class="section">
-            <h2>My Hobbies</h2>
-            <div class="hobbies-grid">
-                <div class="hobby-card">
-                    <div class="hobby-icon">🎨</div>
-                    <h3>Drawing</h3>
-                    <p>Drawing helps me relax. It helps me forget about all of the stressful things in my mind even just for a few moments. I usually draw using the references that i found on pinterest although i can draw or sketch things purely out of my own imaginations. I usually have to do a lot of brainstorming if it's purely out of my own imaginations.</p>
+        <!-- Skills/Interests Section -->
+        <section id="skills">
+            <h2>Skills & Interests</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">💻</div>
+                    <h3>Web Development</h3>
+                    <p>Learning HTML, CSS, and JavaScript to create beautiful and functional websites</p>
                 </div>
 
-                <div class="hobby-card">
-                    <div class="hobby-icon">📚</div>
-                    <h3>Novels</h3>
-                    <p>I like reading novels during my spare time, specifically mystery, thriller, horror, and slice of life novels. I also enjoy exploring the depth and beauty of classical storytelling. Classical novels simply has a timeless feel to it.</p>
+                <div class="skill-card">
+                    <div class="skill-icon">🎨</div>
+                    <h3>Creative Design</h3>
+                    <p>Combining artistic skills with digital tools to create compelling visual experiences</p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">🧩</div>
+                    <h3>Problem Solving</h3>
+                    <p>Developing analytical thinking through programming challenges and logic puzzles</p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">📚</div>
+                    <h3>Continuous Learning</h3>
+                    <p>Always eager to explore new technologies and expand my knowledge base</p>
                 </div>
             </div>
-        </div>
+        </section>
 
-        <div class="section">
-            <h2>Why These Interests?</h2>
-            <p>My hobbies complement my studies perfectly. Drawing enhances my creativity and attention to detail—skills that are valuable in programming and problem-solving. Reading classical novels teaches me about narrative structure, complex systems, and human nature, which surprisingly connects to how we design software and user experiences.</p>
-            
-            <p style="margin-top: 15px;">I believe that being a well-rounded person makes me a better computer scientist. The analytical thinking from CS combined with the creativity from art and literature gives me a unique perspective on technology.</p>
-        </div>
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Get In Touch</h2>
+            <div class="contact-content">
+                <p style="margin-bottom: 20px; font-size: 1.1rem;">Feel free to reach out! I'd love to connect with fellow students, developers, or anyone interested in tech and creativity.</p>
+                
+                <div class="contact-methods">
+                    <div class="contact-item">
+                        <span class="contact-icon">📧</span>
+                        <a href="mailto:avrillavindic@gmail.com">avrillavindic@gmail.com</a>
+                    </div>
 
-        <footer>
-            <p>Thanks for visiting my page! 🌟</p>
-            <p style="margin-top: 10px; font-size: 0.9em;">Freshman | Computer Science | UPN Veteran Jawa Timur</p>
-        </footer>
+                    <div class="contact-item">
+                        <span class="contact-icon">📱</span>
+                        <a href="https://instagram.com/skyxro53" target="_blank">@skyxro53</a>
+                    </div>
+                </div>
+            </div>
+        </section>
     </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <p class="copyright">© 2025 Avril Lavindi Cahayani. All rights reserved.</p>
+            <div class="footer-info">
+                <p>Computer Science Student | UPN Veteran Jawa Timur</p>
+                <p>Built with passion and curiosity</p>
+                <p>Surabaya, Indonesia</p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
