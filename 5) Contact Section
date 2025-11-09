@@ -1,0 +1,71 @@
+//HTML
+ <!-- Contact Section -->
+        <section id="contact">
+            <h2>Get In Touch</h2>
+            <div class="contact-content">
+                <p style="margin-bottom: 20px; font-size: 1.1rem;">Feel free to reach out! I'd love to connect with fellow students, developers, or anyone interested in tech and creativity.</p>
+                
+                <div class="contact-methods">
+                    <div class="contact-item">
+                        <span class="contact-icon">📧</span>
+                        <a href="mailto:avrillavindic@gmail.com">avrillavindic@gmail.com</a>
+                    </div>
+
+                    <div class="contact-item">
+                        <span class="contact-icon">📱</span>
+                        <a href="https://instagram.com/skyxro53" target="_blank">@skyxro53</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+//CSS
+ /* Contact Section */
+        .contact-content {
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+            max-width: 700px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .contact-methods {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .contact-item {
+            background: #fff5f5;
+            padding: 25px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+            transition: all 0.3s ease;
+        }
+
+        .contact-item:hover {
+            background: #fecaca;
+            transform: scale(1.02);
+        }
+
+        .contact-icon {
+            font-size: 2rem;
+        }
+
+        .contact-item a {
+            color: #991b1b;
+            text-decoration: none;
+            font-size: 1.2rem;
+            font-weight: 600;
+        }
+
+        .contact-item a:hover {
+            color: #dc2626;
+        }
