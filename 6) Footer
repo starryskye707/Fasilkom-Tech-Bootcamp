@@ -1,0 +1,42 @@
+//HTML
+ <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <p class="copyright">© 2025 Avril Lavindi Cahayani. All rights reserved.</p>
+            <div class="footer-info">
+                <p>Computer Science Student | UPN Veteran Jawa Timur</p>
+                <p>Built with passion and curiosity</p>
+                <p>Surabaya, Indonesia</p>
+            </div>
+        </div>
+    </footer>
+
+//CSS
+ /* Footer */
+        footer {
+            background: #1a1a1a;
+            color: #e5e5e5;
+            padding: 40px 20px;
+            text-align: center;
+            margin-top: 60px;
+        }
+
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .copyright {
+            font-size: 1rem;
+            margin-bottom: 15px;
+        }
+
+        .footer-info {
+            color: #a3a3a3;
+            font-size: 0.9rem;
+            line-height: 1.8;
+        }
+
+        .footer-info p {
+            margin: 5px 0;
+        }
