@@ -1,0 +1,39 @@
+// HTML
+
+<!-- Hero/Profile Section -->
+    <section id="home" class="hero">
+        <img src="test.jpg" alt="Avril Lavindi Cahayani" height="450" width="450">
+        <h1>Avril Lavindi Cahayani</h1>
+        <p class="tagline">A passionate computer science student blending creativity with technology to build innovative solutions.</p>
+    </section>
+
+// CSS
+
+/* Hero/Profile Section */
+        .hero {
+            background: linear-gradient(135deg, #dc2626 0%, #991b1b 100%);
+            color: white;
+            padding: 80px 20px;
+            text-align: center;
+        }
+
+        .profile-img {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            border: 5px solid white;
+            margin-bottom: 20px;
+            object-fit: cover;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 15px;
+        }
+
+        .tagline {
+            font-size: 1.3rem;
+            font-style: italic;
+            opacity: 0.95;
+        }
